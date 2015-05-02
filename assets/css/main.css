@@ -1,0 +1,61 @@
+/* =================== Página =================== */
+html { height: 100%; }
+body {
+    /*padding: 50px 0 0 0;*/
+    background-image: url('../img/bg-banner.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+    height: 100%;
+}
+section, footer { padding: 40px 0; margin: 0;  }
+
+/* =================== Helpers =================== */
+.fundo-branco { background-color: #FFF; }
+.fundo-cinza { background-color: #EEE; }
+.fundo-preto { background-color: #000; }
+.fundo-inventti { background-color: #3CC1D4; }
+
+.texto-center { text-align: center; }
+.texto-branco { color: #FFF; }
+
+span[class^="texto-"] { display: block; }
+.texto-chamada { font-size: 24px; }
+.texto-propaganda { font-size: 60px; }
+
+.icone-midia-social, .icone-midia-social:hover {
+    font-size: 60px;
+    color: #FFF;
+    margin: 0 30px;
+}
+
+.informacoes-contato { display: inline-block; margin: 0 8px; text-decoration: none !important; }
+.informacoes-contato i { margin: 0 8px; }
+
+/* =================== Início =================== */
+.inicio {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.inicio .container, .row, div[class^="col-"] { height: 100%; }
+.intro { position: relative; top: 44%; transform: translateY(-44%); }
+.iniciar, .iniciar:hover, .iniciar:visited {
+    margin-bottom: 20px;
+    position: absolute;
+    font-size: 50px;
+    color: #FFF;
+    bottom: 0;
+}
+
+/* =================== Contato =================== */
+.contato {
+    background-image: url('../img/dot-bg.png');
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contato h2 { font-size: 50px; }
