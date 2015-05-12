@@ -1,7 +1,7 @@
 /* =================== Página =================== */
 html { height: 100%; }
 body {
-    /*padding: 50px 0 0 0;*/
+    /*padding-top: 50px;*/
     background-image: url('../img/bg-banner.jpg');
     background-attachment: fixed;
     background-position: center center;
@@ -9,11 +9,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 
     height: 100%;
 }
-section, footer { padding: 40px 0; margin: 0;  }
+section, footer { padding: 60px 0; margin: 0;  }
 
 /* =================== Helpers =================== */
 .fundo-branco { background-color: #FFF; }
@@ -53,9 +53,15 @@ span[class^="texto-"] { display: block; }
     bottom: 0;
 }
 
+/* =================== Vídeo =================== */
+.video {
+    /*background-image: url('../img/dot-bg.png');*/
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
 /* =================== Contato =================== */
 .contato {
-    background-image: url('../img/dot-bg.png');
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #EEE;
 }
 .contato h2 { font-size: 50px; }
